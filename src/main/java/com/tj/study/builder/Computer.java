@@ -26,10 +26,10 @@ public class Computer {
 	public String getMouse() {
 		return mouse;
 	}
-	public void setMouse(String mouse) {
-		this.mouse = mouse;
-	}
-	@Override
+    public void setMouse(String mouse) {
+        this.mouse = mouse;
+    }
+    @Override
 	public String toString() {
 		return "Computer [cpu=" + cpu + ", moniter=" + moniter + ", keyboard=" + keyboard + ", mouse=" + mouse + "]";
 	}
